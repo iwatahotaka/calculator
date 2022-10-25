@@ -28,3 +28,15 @@ document.getElementById('button9').onclick = function() {
 document.getElementById('CRL').onclick = function() {
     document.getElementById('text').value = " ";
 }
+document.getElementById('plus').onclick = function() {
+    document.getElementById('text').value += "+";
+}
+document.getElementById('minus').onclick = function() {
+    document.getElementById('text').value += "-";
+}
+document.getElementById('multiplication').onclick = function() {
+    document.getElementById('text').value += "*";
+}
+document.getElementById('Division').onclick = function() {
+    document.getElementById('text').value += "/";
+}
