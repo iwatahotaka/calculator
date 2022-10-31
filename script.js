@@ -40,3 +40,11 @@ document.getElementById('multiplication').onclick = function() {
 document.getElementById('Division').onclick = function() {
     document.getElementById('text').value += "/";
 }
+
+//ユーザーが入力した数字を変数に代入したい
+document.getElementById("text").value = 123;
+
+//text内の数字を取得する処理
+let textNumber = document.getElementById('text').value;
+console.log(textNumber);
+
